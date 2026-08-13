@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command Line Interface.md",
+                "file": "Navegación de directorios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Command Line Interface"
+              "title": "Navegación de directorios"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8438857bb6a55bbd",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command Line Interface.md",
+                "file": "Navegación de directorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command Line Interface.md",
+                "file": "Navegación de directorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command Line Interface.md",
+                "file": "Navegación de directorios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +191,9 @@
   },
   "active": "de7d0427792a74d1",
   "lastOpenFiles": [
-    "Command Line Interface.md"
+    "Command Line Interface.md",
+    "Primeros comandos.md",
+    "Navegación de directorios.md",
+    "Accediendo a la CLI.md"
   ]
 }
