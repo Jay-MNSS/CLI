@@ -11,5 +11,5 @@ el path a un directorio comienza con un /, este es el directorio absoluto, un pa
 
 Para saber en que directorio te encuentras hay distintos modos de hacerlo, en primer lugar el directorio se muestra en el prompt:  [~ %] o [/home %].  Este método no siempre es completamente confiable, se puede configurar la shell para cambiar esto. Una forma de hacerlo fácil y confiable es con el comando __pwd__ (Print the Working Directory). Ejemplo: ~ % pwd: /home.
 
-Para cambiar el directorio donde se encuentra la shell se utiliza el comando __cd__ [[Primeros comandos]]. La diferencia ente un path relativo y uno absoluto es que el absoluto te puede llevar a cualquier directorio sin importar 
+Para cambiar el directorio donde se encuentra la shell se utiliza el comando __cd__ [[Primeros comandos]]. La diferencia ente un path relativo y uno absoluto es que el absoluto te puede llevar a cualquier directorio sin importar la carpeta donde te encuentras. Para que un path sea absoluto se debe introducir todo el camino. 
 
