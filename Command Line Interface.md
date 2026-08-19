@@ -15,6 +15,7 @@ El camino a seguir será:
 1. [[ Accediendo a la CLI]]
 2. [[Primeros comandos]]
 3. [[Navegación de directorios]]
-4. 
+4. [[Cómo la interfaz entiende lo que se teclea]]
+5. 
 
 

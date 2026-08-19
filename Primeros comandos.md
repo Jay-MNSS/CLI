@@ -20,7 +20,7 @@ Change directory se usa para cambiar el directorio desde el que se está trabaja
 
 ##  ls
 
-Te muestra una lista de todos los archivos y directorios que se encuentran en el directorio en el que se encuentra. ls -a (all) te muestra todos los archivos, incluso los que están ocultos. ls -r invierte el orden alfabético de la lista. ls -t  cambia la lista del archivo más reciente al más antiguo. 
+Te muestra una lista de todos los archivos y directorios que se encuentran en el directorio en el que se encuentra. ls -a (all) te muestra todos los archivos, incluso los que están ocultos. ls -r invierte el orden alfabético de la lista. ls -t  cambia la lista del archivo más reciente al más antiguo.  Se pueden combinar argumentos y poner ls -tr y mostrará una lista donde se acomode primero los archivos más antiguos al princio y los más viejos al final. 
 
 
 
