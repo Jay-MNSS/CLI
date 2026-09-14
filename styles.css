@@ -1,0 +1,112 @@
+/* ========================================= */
+/* 1. RESET & BASIC SETUP */
+/* ========================================= */
+* {
+    box-sizing: border-box; /* Ensures padding/borders don't increase 
+element width */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: olivedrab; /* Keeps the green background */
+    display: grid;
+    place-items: center;         /* Centers content vertically and 
+horizontally */
+    min-height: 100vh;           /* Takes up full screen height */
+    margin: 0;
+}
+
+/* ========================================= */
+/* 2. MAIN CONTAINER STYLING */
+/* ========================================= */
+main {
+    background-color: antiquewhite; /* Light beige container */
+    padding: 2rem; /* More breathing room (36px) than previous 20px */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+    
+    /* Added max-width to prevent it from getting too wide on desktops */
+    max-width: 800px; 
+}
+
+/* ========================================= */
+/* 3. TYPOGRAPHY STYLES */
+/* ========================================= */
+h1 {
+    color: chocolate; /* The classic cocoa brown */
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #333333; /* Slightly softer black for better readability */
+    margin-top: 1rem;
+    line-height: 1.6; /* Adds a bit more space between lines of text */
+    font-size: 1.1rem;
+}
+
+/* ========================================= */
+/* 4. LINK STYLING (Replacing the Button) */
+/* ========================================= */
+a.btn {
+    display: inline-block;
+    background-color: #0056b3; /* A deep, professional blue */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none; /* Removes underline from links */
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Smooth transitions for hover effects */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Remove the default underline on hover */
+a.btn:hover {
+    background-color: #48a7e0; /* Lighter blue on hover */
+    text-decoration: none;
+    transform: translateY(-2px); /* Lifts button up slightly */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* ========================================= */
+/* 5. IMAGE STYLING (Responsive) */
+/* ========================================= */
+img {
+    max-width: 100%;       /* Shrinks if the image is wider than the 
+screen */
+    height: auto;          /* Keeps aspect ratio correct */
+    object-fit: cover;     /* Crops the image to fit perfectly without 
+stretching */
+    border-radius: 8px;
+    margin: 1rem 0;        /* Adds spacing above and below the image */
+    
+    /* Optional: Add a subtle hover effect for the image too */
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05); /* Slightly zoom in when mouse hovers over it 
+*/
+}
+
+/* ========================================= */
+/* 6. RESPONSIVE DESIGN (Mobile Adjustments) */
+/* ========================================= */
+@media (max-width: 600px) {
+    main {
+        padding: 1.5rem; /* Reduce padding on small screens to fit width 
+*/
+    }
+    
+    h1 {
+        font-size: 1.75rem; /* Make text slightly smaller on mobile */
+    }
+    
+    a.btn {
+        padding: 10px 20px; /* Slightly reduce button size for thumb reach 
+*/
+    }
+}
