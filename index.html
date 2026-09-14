@@ -4,55 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eshop Landing Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: olivedrab;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: antiquewhite;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        h1 {
-            text-align: center;
-            color: chocolate;
-        }
-        p {
-            color: black;
-            margin-top: 20px;
-        }
-        button {
-            background-color: blue;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: blueviolet;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-    </style>
+    
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to our e-shop website</h1>
-        <img src="cat1.jpeg" alt="Image of cute cat">
-        <p>Ismene es lo maximo</p>
-        <button onclick="location.href='/products'">Explore Products</button>
-    </div>
+
+    <main>
+        <h1>Welcome to our E-Shop</h1>
+        
+        <!-- Ensure your image file exists in this folder -->
+        <img src="cat1.jpeg" alt="A cute cat exploring products">
+        
+        <p>Ismene es lo máximo.</p>
+        
+        <!-- Changed from 'button' with onclick to an actual '<a>' link 
+-->
+        <a href="/products" class="btn">Explore Products</a>
+    </main>
+
 </body>
 </html>
